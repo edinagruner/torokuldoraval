@@ -109,10 +109,9 @@ padding:10px 10%;
 section#main{
     background-image: url('img/womanwithcat1.jpg'); 
    background-size: cover;
-   height:1000px;
     background-position: center top;
     background-repeat: no-repeat;
-    padding:0 10%;
+    padding:120px 10%;
 }
 
 #name-logo{
@@ -187,9 +186,9 @@ img#name-logo{
  box-shadow: 9px 9px 5px 1px rgba(31,36,41,0.31);
  
  }
- #about-textbox{
-  grid-column-start: 2;
-  grid-column-end: 8;
+ .about.textbox{
+  grid-column-start: 1;
+  grid-column-end: 7;
   width:100%;
   padding:120px 0;
   text-align: center;
@@ -199,7 +198,7 @@ img#name-logo{
   margin-bottom:30px;
  }
  .about-btn{
-  margin:60px;
+  margin:60px auto;
   color:#EFECEE;
 
 
@@ -211,9 +210,9 @@ img#name-logo{
  
    }
  #about-img{
-  grid-column-start: 9;
-  grid-column-end: 12; 
-  padding:120px 0;
+  grid-column-start: 8;
+  grid-column-end: 13; 
+  padding:180px 0;
  }
  #about-img>img{
   width:100%;
@@ -268,7 +267,7 @@ img#name-logo{
   -webkit-box-shadow: 9px 9px 5px 1px rgba(31,36,41,0.31);
  -moz-box-shadow: 9px 9px 5px 1px rgba(31,36,41,0.31);
  box-shadow: 9px 9px 5px 1px rgba(31,36,41,0.31);
-  padding:120px 30px 60px;
+  padding:120px 30px ;
   margin-top:120px;
   text-align: center;
   
@@ -298,7 +297,7 @@ margin:60px auto 0 ;
 .testimonials-h5{
   margin:-120px auto 0;
 }
-.carousel-textbox{
+.carousel.textbox{
   padding:90px 120px;
   margin-bottom: 60px;
 }
@@ -413,6 +412,7 @@ input[type=submit]:hover {
 footer{
   background-image: url('img/bg-opacity.png'); 
   width:100%;
+  padding:120px 0;
 
 }
 h3{
@@ -424,7 +424,6 @@ h5{
 .footer-logobox{
   width:100%;
   text-align: center;
-  padding-top:120px;
 }
 .footer-logo>img{
 width:100px;
@@ -450,9 +449,10 @@ img.icon{
   width:30px;
   height:30px;
 }
-#fb{
- float: left;
- margin-right:30px;
+
+img#insta, img#fb{
+  width:25px;
+  height:25px;
 }
 .info{
   width:80%;
@@ -543,24 +543,30 @@ background: linear-gradient(90deg, rgba(129,38,31,1) 0%, rgba(199,142,48,1) 80%,
 
 }
 @media only screen and (max-width: 1190px){
+  p{
+    font-size: 18px;
+    line-height: 2;
+  }
   section#main {
     text-align: center;
+ 
   }
-  #main-textbox{
+  .textbox{
     text-align: center;
   }
   #text{
     margin:auto;
+    width:100%;
   }
-  #about-textbox{
+  .about.textbox{
     grid-column-start: 1;
     grid-column-end: 13;
-    padding:90px 0 0 0;
+    padding:120px 0 0 0;
   }
   #about-img{
     grid-column-start: 1;
     grid-column-end: 13;
-    padding:0 0 90px 0; 
+    padding:0 0 120px 0; 
    
    }
    .cours{
@@ -582,33 +588,34 @@ background: linear-gradient(90deg, rgba(129,38,31,1) 0%, rgba(199,142,48,1) 80%,
     grid-column-end: 13; 
   }
   #decor-box {
-    margin: -260px 0 60px 300px;
+    display: none;
+  }
+
+  .testimonials-h5{
+    margin:60px auto 60px;
+    font-size: 2rem;
+   }
+  .carousel.textbox{
+    padding:30px 20px;
   }
    .footer-first-box{
     grid-column-start: 1;
     grid-column-end: 13;
     width:100%;
-    padding:120px;
+    padding:120px 80px;
     text-align: center;
    
   }
-  .icon, .info{
-    width:50%;
-  }
-  .info-box{
-    margin-left:-120px;
-  }
+ 
   .info{
     text-align: left;
     padding-left:15px;
   }
   .icon{
-    text-align: right;
+
    padding-right:15px;
   }
-#fb{
-  margin-left:39%;
-}
+
 img.icon{
   width:90px;
 }
@@ -628,8 +635,93 @@ img.icon{
     
 }
 @media only screen and (max-width: 821px){
-   
+  section#main{
+    background-image: url('img/womancat790.jpg'); 
+}
+  #about, #contact, .grid-container, #testimonials {
+    width:85%;
+  }
+  section#main {
+    text-align: center;
+    padding:120px 5%;
+  }
+  #about-textbox{
+    width:100%;
+  }
+
+ .cours-line{
+  width:80%;
+  margin:60px auto;
+ } 
+
+ .carousel-textbox, .cours{
+  padding:120px 20px;
+ }
+ .testimonials-h5{
+  margin-bottom:0;
+ }
+ li.indicators {
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+ }
+ p{
+  margin-top:60px;
+ }
+ .footer-first-box, .footer-second-box{
+  padding:90px 0;
+ }
+ 
+element.style {
+}
+.carousel-control-prev {
+    left: 0;
+}
+
+.info-box{
+  margin-top:30px;
+}
+
+#contact{
+  width:100%;
+ 
+}
+
+.container{
+  padding:20px 0;
+}
+nav.footer-nav{
+  padding:10px 0;
+}
+ul#footer-nav{
+  width:96%;
+}
+.footer-nav>li{
+  border-right:1px solid #DB6F6B;
+}
+
+}
+@media only screen and (max-width: 590px){
+  section#main{
+    background-image: url('img/womanwithcat590.jpg'); 
+}
+a.sticky.arrow{
+  left:80%;
+}
 }
 @media only screen and (max-width: 390px){
-  
+  a.sticky.arrow{
+    left:72%;
+  }
+  section#main {
+    text-align: center;
+    padding:120px 15px;
+  }
+  #testimonials{
+    padding:120px 20px;
+  }
+  .carousel.textbox{
+    padding: 0;
+  }
+ 
 }
