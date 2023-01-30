@@ -645,6 +645,9 @@ img.icon{
     text-align: center;
     padding:120px 5%;
   }
+  a.sticky.arrow {
+    left: 90%;
+  }
   #about-textbox{
     width:100%;
   }
@@ -671,7 +674,7 @@ img.icon{
  .footer-first-box, .footer-second-box{
   padding:90px 0;
  }
- 
+
 element.style {
 }
 .carousel-control-prev {
@@ -707,6 +710,20 @@ ul#footer-nav{
 }
 a.sticky.arrow{
   left:80%;
+}
+.about-btn{
+  width:120px;
+}
+ul {
+  display: block;
+  padding: 30px;
+  text-align: center;
+}
+.footer-line{
+  width:80%;
+  height:1px;
+  margin:20px auto;
+ 
 }
 }
 @media only screen and (max-width: 390px){
