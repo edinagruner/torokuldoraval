@@ -79,8 +79,12 @@ padding:10px 10%;
  float: right;
 }
 .hamburger-menu:hover{
-    background: none;
+  background-color: none;
     border: none;   
+}
+button:focus{
+  outline: 0;
+     
 }
  .line-hamburger {
     width: 24px;
@@ -102,7 +106,7 @@ padding:10px 10%;
   color:#DB6F6B;
   }
   .dropdown:hover{
-    color:#6B3537;
+    color:#3BA2B6;
     }
 
 /*Main Section*/
