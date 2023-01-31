@@ -272,13 +272,15 @@ img#name-logo{
   text-align: center;
   
 }
-
+.carousel-indicators{
+  bottom:-30px;
+}
 li.indicators{
 width: 20px;
 height:20px;
-border: #3BA2B6;
+border:#DB6F6B;
 border-radius: 20px;
-background-color: #3BA2B6;
+background-color:#DB6F6B;
 margin: 20px;
 }
 img.carousel{
@@ -301,12 +303,16 @@ margin:60px auto 0 ;
   padding:90px 120px;
   margin-bottom: 60px;
 }
+.carousel-control-next, .carousel-control-prev{
+  display: none;
+}
 .carousel-control-prev-icon {
   background-image: url('img/prev-icon.png'); 
 }
 .carousel-control-next-icon{
   background-image: url('img/next-icon.png'); 
 }
+
 
 /*Contact Section*/
 
@@ -675,11 +681,8 @@ img.icon{
   padding:90px 0;
  }
 
-element.style {
-}
-.carousel-control-prev {
-    left: 0;
-}
+
+
 
 .info-box{
   margin-top:30px;
