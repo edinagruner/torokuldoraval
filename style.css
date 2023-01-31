@@ -712,7 +712,7 @@ ul#footer-nav{
     background-image: url('img/womanwithcat590.jpg'); 
 }
 a.sticky.arrow{
-  left:80%;
+  left:78%;
 }
 .about-btn{
   width:120px;
@@ -731,7 +731,7 @@ ul {
 }
 @media only screen and (max-width: 390px){
   a.sticky.arrow{
-    left:72%;
+    left:75%;
   }
   section#main {
     text-align: center;
