@@ -225,15 +225,51 @@ img#name-logo{
  margin:-150px 0 0 50%;
 
  }
+ #about-airballon{
+  margin:-90px 0 0 60px;
+  position:absolute;
+  z-index: 30;
+ }
  /*Courses*/
  #courses{
   background: rgb(143,125,130);
   background: linear-gradient(90deg, rgba(143,125,130,1) 1%, rgba(143,125,130,0.25) 100%);
  padding:240px 0;
  }
+ #course-coffee{
+  margin:10px 0 0 10px;
+  position:absolute;
+  z-index: 30;
+ }
+ #course-fat-tulip{
+ margin:490px 0 0 -60px;
+  position:absolute;
+  z-index: 30;
+ }
+ #course-linetower{
+  margin:60px 0 0 60px;
+  position:absolute;
+  z-index: 30; 
+ }
+ #course-purpletulip{
+  margin:-120px 0 0 290px;
+  position:absolute;
+  z-index: 30; 
+ }
+ #course-lineairballon{
+  margin:190px 0 0 90px;
+  position:absolute;
+  z-index: 30; 
+ }
+ #course-greentulip{
+  margin:730px 0 0 90px;
+ 
+  position:absolute;
+  z-index: 30; 
+ }
  .cours{
   width:80%;
-  padding:120px 30px 60px;
+  padding:210px 30px 60px;
   text-align: center;
  }
  .cours-line{
@@ -276,6 +312,12 @@ img#name-logo{
   text-align: center;
   
 }
+#testi-teaglass{
+  margin:-160px 0 0 -120px;
+  position:absolute;
+  z-index: 30;
+}
+
 .carousel-indicators{
   bottom:-30px;
 }
@@ -597,6 +639,15 @@ background: linear-gradient(90deg, rgba(129,38,31,1) 0%, rgba(199,142,48,1) 80%,
     grid-column-start: 1;
     grid-column-end: 13; 
   }
+  #course-purpletulip{
+    margin:-120px 0 0 0;
+   
+   }
+   #course-greentulip{
+    margin-top:600px;
+    right:60px;
+  
+   }
   #decor-box {
     display: none;
   }
@@ -721,6 +772,11 @@ a.sticky.arrow{
 .about-btn{
   width:120px;
 }
+#course-greentulip{
+  margin-top:660px;
+  right:30px;
+
+ }
 ul {
   display: block;
   padding: 30px;
