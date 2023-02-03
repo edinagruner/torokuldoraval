@@ -585,6 +585,7 @@ color: #EFECEE;
 }
 .price-note{
   font-style: italic;
+  font-size: small;
 }
 .subsites-bg{
  padding:0;
