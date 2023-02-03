@@ -355,9 +355,7 @@ margin:60px auto 0 ;
   padding:90px 120px;
   margin-bottom: 60px;
 }
-.carousel-control-next, .carousel-control-prev{
-  display: none;
-}
+
 .carousel-control-prev-icon {
   background-image: url('img/prev-icon.png'); 
 }
@@ -365,6 +363,11 @@ margin:60px auto 0 ;
   background-image: url('img/next-icon.png'); 
 }
 
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  width:8px;
+  height:30px;
+}
 
 /*Contact Section*/
 
