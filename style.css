@@ -47,6 +47,12 @@ body {
     .color-salmon{
       color:#DB6F6B;
     }
+    .color-meat{
+    color:#5B2C34;
+  }
+  .color-brick{
+    color:#A35657;
+  }
     .color-darkgreen{
       color:#1B4E58;
     }
@@ -262,20 +268,20 @@ img#name-logo{
   z-index: 30; 
  }
  #course-greentulip{
-  margin:730px 0 0 90px;
+  margin:730px 0 0 160px;
  
   position:absolute;
   z-index: 30; 
  }
  .cours{
   width:80%;
-  padding:210px 30px 60px;
+  padding:150px 30px 60px;
   text-align: center;
  }
  .cours-line{
-  width:100%;
+  width:80%;
   height:2.5px;
-  margin:0 0 60px;
+  margin:0 auto 60px;
  }
  .cours>h3{
   margin-bottom:60px;
@@ -572,24 +578,20 @@ color: #EFECEE;
     filter: brightness(120%);
 }
 /*About page*/
-
-
+/*Courses page*/
+.ul-courses{
+  display: block;
+  text-align: left;
+}
+.price-note{
+  font-style: italic;
+}
+.subsites-bg{
+ padding:0;
+}
 /*Comming soon*/
 
-h1{
-    text-align: center;
-    margin:100px auto;
-}
-#comming_soon-border{
-width:60%;
-border:1px solid #C78E38;
-margin:90px auto;
-height: 20px;
-border-radius: 5px;
-background: rgb(129,38,31);
-background: linear-gradient(90deg, rgba(129,38,31,1) 0%, rgba(199,142,48,1) 80%, rgba(251,251,251,1) 90%, rgba(251,251,251,1) 100%);
 
-}
 
 @media only screen and (max-width: 1700px){
 
