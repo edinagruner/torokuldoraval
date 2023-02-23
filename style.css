@@ -107,7 +107,7 @@ padding:10px 10%;
   right:0;
   float:right;
   padding:4px 14px;
-  margin:auto 120px;
+  margin:auto 0;
   font-size: small;
  color:#DB6F6B;
  border: none;
@@ -314,7 +314,6 @@ img#name-logo{
  }
  .cours{
   width:80%;
-  height: 900px;
   padding:120px 30px 60px;
   text-align: center;
  }
@@ -398,7 +397,9 @@ margin:60px auto 0 ;
   padding:90px 120px;
   margin-bottom: 60px;
 }
-
+.carousel-control-next, .carousel-control-prev{
+  top:-120px;
+}
 .carousel-control-prev-icon {
   background-image: url('img/prev-icon.png'); 
 }
@@ -643,7 +644,7 @@ margin-bottom:90px;
     z-index: 30;
 }
 
-p.larger{
+p.larger, p{
   font-size: large;
   line-height: 1.7;
 }
@@ -687,7 +688,6 @@ ul>.cours-line{
 }
 @media only screen and (max-width: 1190px){
   p{
-    font-size: 18px;
     line-height: 2;
   }
   section#main {
@@ -716,6 +716,7 @@ ul>.cours-line{
     width:100%;
     margin-bottom:90px;
     padding:120px;
+    
    }
    .acours-box{
     grid-column-start: 1;
@@ -790,7 +791,7 @@ img.icon{
   section#main{
     background-image: url('img/womancat790.jpg'); 
 }
-  #about, #contact, .grid-container, #testimonials, #course-section {
+  #about, #contact, .grid-container, #testimonials, #course-section, #course-types {
     width:85%;
   }
   section#main {
@@ -804,11 +805,11 @@ img.icon{
 
  .cours-line{
   width:80%;
-  margin:60px auto;
+margin-top:0;
  } 
 
  .carousel-textbox, .cours{
-  padding:120px 5px;
+  padding:120px 10px;
  }
  .testimonials-h5{
   margin-bottom:0;
@@ -849,10 +850,15 @@ ul#footer-nav{
 .footer-nav>li{
   border-right:1px solid #DB6F6B;
 }
-#course-textbox{
-  padding:90px 5px;
+#course-textbox, #course-types{
+  padding:90px 10px;
 }
-
+.carousel-control-next{
+  right:-30px;
+}
+.carousel-control-prev{
+  left:-30px;
+}
 }
 @media only screen and (max-width: 590px){
   section#main{
