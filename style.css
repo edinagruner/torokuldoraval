@@ -1,12 +1,14 @@
 
 
 body {
-    margin: auto 0;
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     width: 100%;
    
   }
-
+  html, body {
+    width: auto!important; overflow-x: hidden!important
+  } 
   .grid-container{
   display:grid;
   grid-template-columns:repeat(12, 1fr);
@@ -93,11 +95,27 @@ background-color: #12354F;
     .color-darkblue{
       color:#12354F;
     }
-
+h2{
+  margin-bottom:30px;
+}
 /*Navigation*/
 nav{
 width:100%;   
 padding:10px 10%;
+}
+.log-in{
+  right:0;
+  float:right;
+  padding:4px 14px;
+  margin:auto 120px;
+  font-size: small;
+ color:#DB6F6B;
+ border: none;
+}
+.log-in:hover{
+  border: none;
+  margin-top:1px;
+  color:#554045;
 }
 #logo{
     width:15px;
@@ -109,11 +127,9 @@ padding:10px 10%;
     border: none;   
 }
 
-.hamburger-menu{
- float: right;
-}
+
 .hamburger-menu:hover{
-  background-color: none;
+
     border: none;   
 }
 button:focus{
@@ -131,16 +147,19 @@ button:focus{
     background-color:#E6BCAC;
   }
   .dropdown-menu{
-    background: none;
+    background: rgb(91,44,52);
+    background: linear-gradient(90deg, rgba(91,44,52,1) 1%, rgba(91,44,52,0.38988095238095233) 100%);
     border: none;
     margin-top:30px;
+    padding:10px;
 
   }
   .dropdown{
-  color:#DB6F6B;
+  color:#E6BCAC;
+  font-weight: 400;
   }
   .dropdown:hover{
-    color:#3BA2B6;
+    color:#DB6F6B;
     }
 
 /*Main Section*/
@@ -173,26 +192,15 @@ img#name-logo{
  
   a.sticky{
     position: fixed;
-    width: 30px;
-    height: 30px;
     z-index:8;
-   top:400px;
-   right:20px;
-   
+   right:0;
+   top:auto;
+   bottom:0;
   }
-  a.sticky>img{
-    width:100%;
-}
 
   a.sticky.arrow{
- 
     padding: 5px;
-    top:260px;
-    margin: 30px 0;
     text-align: center;
-    width:38px;
-    height:38px;
-    right:0;
   }
   .main-btn{
  color:#EFECEE;
@@ -212,12 +220,12 @@ img#name-logo{
     background-position: center top;
     padding:120px 0;
   } 
-  #about, #contact,.grid-container, #testimonials, #course-section{
+  #about, #contact,.grid-container, #testimonials, #course-section, #course-types{
     width:75%;
     margin:0 auto;
   } 
   /*About */
- #about, #course-section{
+ #about, #course-section, #course-types{
  background-color: white;
  -webkit-box-shadow: 9px 9px 5px 1px rgba(31,36,41,0.31);
  -moz-box-shadow: 9px 9px 5px 1px rgba(31,36,41,0.31);
@@ -232,9 +240,7 @@ img#name-logo{
   text-align: center;
 
  }
- #about-h2{
-  margin-bottom:30px;
- }
+
  .about-btn{
   margin:60px auto;
   color:#EFECEE;
@@ -270,8 +276,13 @@ img#name-logo{
   background: linear-gradient(90deg, rgba(143,125,130,1) 1%, rgba(143,125,130,0.25) 100%);
  padding:240px 0 180px;
  }
+ #course-types{
+  padding:120px;
+  text-align: center;
+  margin-bottom: 90px;
+ }
  #course-coffee{
-  margin:10px 0 0 10px;
+  margin:90px 0 0 30px;
   position:absolute;
   z-index: 30;
  }
@@ -281,7 +292,7 @@ img#name-logo{
   z-index: 30;
  }
  #course-linetower{
-  margin:60px 0 0 60px;
+  margin:120px 0 0 60px;
   position:absolute;
   z-index: 30; 
  }
@@ -303,7 +314,8 @@ img#name-logo{
  }
  .cours{
   width:80%;
-  padding:150px 30px 60px;
+  height: 900px;
+  padding:120px 30px 60px;
   text-align: center;
  }
  .cours-line{
@@ -318,14 +330,17 @@ img#name-logo{
  grid-column-start: 1;
  grid-column-end: 5;
 
+
  }
  .bcours-box{
   grid-column-start: 5;
  grid-column-end: 9;
+
 }
 .ccours-box{
   grid-column-start: 9;
   grid-column-end: 13; 
+ 
 }
 .acours{
   margin:0 auto 60px 0;
@@ -622,7 +637,7 @@ margin-bottom:90px;
   position:absolute;
   z-index: 30; 
 }
-#course-tulip{
+.course-tulip{
   margin: 120px 0 0 -150px;
     position: absolute;
     z-index: 30;
@@ -630,6 +645,7 @@ margin-bottom:90px;
 
 p.larger{
   font-size: large;
+  line-height: 1.7;
 }
 #course-textbox{
  padding:120px;
@@ -781,9 +797,7 @@ img.icon{
     text-align: center;
     padding:120px 5%;
   }
-  a.sticky.arrow {
-    left: 90%;
-  }
+ 
   #about-textbox{
     width:100%;
   }
@@ -844,9 +858,7 @@ ul#footer-nav{
   section#main{
     background-image: url('img/womanwithcat590.jpg'); 
 }
-a.sticky.arrow{
-  left:78%;
-}
+
 .about-btn{
   width:120px;
 }
@@ -869,7 +881,7 @@ ul {
 }
 @media only screen and (max-width: 390px){
   a.sticky.arrow{
-    left:75%;
+
   }
   section#main {
     text-align: center;
