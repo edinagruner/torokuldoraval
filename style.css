@@ -791,6 +791,9 @@ img.icon{
     
 }
 @media only screen and (max-width: 821px){
+  img#name-logo {
+    width: 90%;
+}
   section#main{
     background-image: url('img/womancat790.jpg'); 
 }
