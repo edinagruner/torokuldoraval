@@ -186,7 +186,7 @@ img#name-logo{
     color:#EFECEE ;
     text-shadow: 1px 1px #5C5C60;
     margin-bottom: 60px;
-    font-size: larger;
+    font-size: 20px;
     line-height: 2;
 }
  
@@ -578,9 +578,7 @@ img#insta, img#fb{
   width:100%;
  
 }
-li{
-    text-decoration: none;
-}
+
 
 ul {
     list-style: none;
@@ -592,6 +590,7 @@ ul {
 
   li{
       margin:6px auto;  
+      text-decoration: none;
   }
 
 a{
@@ -645,8 +644,11 @@ margin-bottom:90px;
     z-index: 30;
 }
 
-p.larger, p{
-  font-size: large;
+p.larger{
+  font-size: 18px;
+  line-height: 1.7;
+}
+p{
   line-height: 1.7;
 }
 #course-textbox{
@@ -822,12 +824,16 @@ margin-top:0;
  }
  p{
   margin-top:60px;
+  font-size: 14px;
  }
+
  .footer-first-box, .footer-second-box{
   padding:90px 0;
  }
 
-
+li.courses{
+  font-size:14px;
+}
 
 
 .info-box{
