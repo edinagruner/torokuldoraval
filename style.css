@@ -271,6 +271,7 @@ img#name-logo{
   z-index: 30;
  }
  /*Courses*/
+ 
  #courses{
   background: rgb(143,125,130);
   background: linear-gradient(90deg, rgba(143,125,130,1) 1%, rgba(143,125,130,0.25) 100%);
@@ -808,7 +809,9 @@ img.icon{
   #about-textbox{
     width:100%;
   }
-
+.large-screan{
+  display: none;
+}
  .cours-line{
   width:80%;
 margin-top:0;
