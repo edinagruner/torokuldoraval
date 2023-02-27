@@ -841,9 +841,7 @@ width:90px;
 img#name-logo {
   width: 90%;
 }
-p{
-  font-size:12px;
-}
+
 section#main{
   background-image: url('img/womancat790.jpg'); 
 }
@@ -885,7 +883,7 @@ border-radius: 8px;
 }
 p{
 margin-top:60px;
-font-size: 1.15rem;
+font-size:12px;
 }
 
 .footer-first-box, .footer-second-box{
