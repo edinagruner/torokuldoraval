@@ -401,7 +401,8 @@ background-color:#DB6F6B;
 margin: 20px;
 }
 img.carousel{
-margin:60px auto 0 ;
+margin:0 auto ;
+
 
 }
 #decor-box{
@@ -451,7 +452,7 @@ text-align: center;
 .contact-box>h2{
   font-family: inherit;
   font-weight: 600;
-  color::#EFECEE;
+  color:#EFECEE;
   margin:30px;
 }
 
@@ -463,7 +464,7 @@ margin:auto;
 input[type=text], select, textarea {
 width: 100%;
 padding: 12px;
-border: 1px solid :#EFECEE;
+border: 1px solid #EFECEE;
 
 resize: vertical;
 }
@@ -862,7 +863,10 @@ section#main {
   padding:120px 5%;
 }
 #about-h2 {
-  padding: 120px 0 60px;
+  padding: 120px 0 0;
+}
+h2{
+  margin-bottom:90px;
 }
 #about-textbox{
   width:100%;
@@ -978,9 +982,7 @@ margin:20px auto;
 }
 }
 @media only screen and (max-width: 390px){
-a.sticky.arrow{
 
-}
 section#main {
   text-align: center;
   padding:120px 15px;
