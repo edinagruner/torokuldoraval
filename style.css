@@ -243,7 +243,6 @@ box-shadow: 9px 9px 5px 1px rgba(31,36,41,0.31);
 }
 #about-h2{
   text-align: center;
- padding:120px 0;
  margin-bottom:0;
 }
 .about.textbox{
@@ -656,6 +655,12 @@ margin-bottom:90px;
 
 margin:120px auto 60px;
 }
+#course-img>img{
+  width:100%;
+}
+img#course-page{
+  width:85%;
+}
 #course-airballon{
 margin:320px 0 0 70%;
 position:absolute;
@@ -860,7 +865,8 @@ section#main {
 
 }
 .about.textbox{
-  padding-top:40px;
+  padding-top:10px;
+  margin-top: 90px
 }
 .large-screan{
 display: none;
@@ -885,7 +891,12 @@ p{
 margin-top:60px;
 font-size:10px;
 }
-
+.cours-p{
+  margin-top:30px;
+}
+.price-note {
+  font-size: 9px;
+}
 .footer-first-box, .footer-second-box{
 padding:90px 0;
 }
