@@ -114,6 +114,7 @@ padding:10px 10%;
 }
 nav.bg-meat{
   position: fixed;
+  z-index: 50;
 }
 .log-in{
 right:0;
@@ -963,7 +964,9 @@ width:90px;
 .img-group1, .img-group2, .img-group3, .img-group4, .img-group5, .img-group6, .img-group7{
   grid-column-start:1;
   grid-column-end:13;
+
 }
+
 .img-group2{
   margin:90px 0 0 -30px;
 }
