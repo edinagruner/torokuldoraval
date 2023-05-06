@@ -14,13 +14,16 @@ display:grid;
 grid-template-columns:repeat(12, 1fr);
 margin:0 auto;
 }
+img{
+  border-radius:2px;
+}
 /*Fonts*/
 
 
 
 h1{
   font-size: 2.1rem;
-  margin:0 auto 90px;
+  margin:0 auto 60px;
   padding-bottom:30px;
   text-align: center;
   
@@ -38,6 +41,9 @@ h1{
   }
   h1.color-salmon.bottom-border{
     border-bottom: 2px solid #DB6F6B;
+  }
+  h1.margin-top{
+    margin:90px auto 0;
   }
   h2{
     font-size: 1.8rem;
@@ -80,7 +86,9 @@ h1{
     font-size: 16px;
  line-height: 2;
  }
- 
+ li{
+  font-size: 14px;
+ }
  li>a{
  color: #EFECEE;
  font-size: 14px;
@@ -327,8 +335,7 @@ grid-column-end: 13;
 width:100%;
 padding:120px 0;
 text-align: left;
-border-top:3px #3BA2B6 solid;
-margin-top:120px;
+
 
 }
 
@@ -412,7 +419,7 @@ z-index: 30;
 }
 .cours{
 width:90%;
-padding:120px 30px 60px;
+padding:90px 30px 60px;
 text-align: left;
 }
 .cours-line{
@@ -731,7 +738,7 @@ margin:120px auto 60px;
 }
 #course-img>img{
   width:100%;
-  margin:0 auto 90px;
+  margin:0 auto ;
 }
 
 #course-airballon{
@@ -781,7 +788,7 @@ opacity:0.8;
 }
 #courses-menu{
   display: flex;
-  margin-top:60px;
+  margin:60px auto;
 }
 
 a.info>li:hover{
@@ -789,7 +796,7 @@ a.info>li:hover{
 }
 .opacity{
   opacity:0.5;
-  margin:90px 0;
+  margin:0 auto 60px;
 }
 a.color-green:hover{
   opacity:0.8;
@@ -812,6 +819,9 @@ a.color-green:hover{
 }
 .main-line{
   margin:0 auto 60px;
+}
+h1.margin-bottom-zero{
+  margin-bottom:0;
 }
 /*Gallery page*/
 
@@ -1010,6 +1020,9 @@ section#main {
   margin:60px auto 60px;
   font-size: 2rem;
  }
+ .testimonials-p{
+  margin-top:120px;
+}
 .carousel.textbox{
   padding:30px 20px;
 }
@@ -1018,7 +1031,7 @@ section#main {
   grid-column-end: 13;
   width:100%;
   padding:120px 80px;
-  text-align: center;
+  text-align: left;
  
 }
 
@@ -1049,6 +1062,9 @@ width:90px;
   grid-column-start:1;
   grid-column-end:13;
 
+}
+.cours>h3{
+  text-align: center;
 }
 
 .img-group2{
@@ -1150,9 +1166,15 @@ font-size:14px;
 .footer-first-box, .footer-second-box{
 padding:90px 0;
 }
-
+.cours>h3{
+  text-align: center;
+}
+.ul-courses{
+  padding:0;
+}
 li.courses{
-font-size:1.2rem;
+font-size:14px;
+line-height: 2;
 }
 
 
@@ -1177,7 +1199,7 @@ width:96%;
 .footer-nav>li{
 border-right:1px solid #DB6F6B;
 }
-#course-textbox, #course-types{
+#course-textbox, #course-types, #about{
 padding:90px 60px;
 }
 .carousel-control-next{
@@ -1200,6 +1222,13 @@ z-index: 30;
  
 }
 @media only screen and (max-width: 590px){
+  .main.textbox{
+    width:100%;
+  }
+  .about.textbox {
+    padding:0 0 90px;
+    margin-top: 90px;
+  }
 section#main{
   background-image: url('img/womanwithcat590.jpg'); 
 }
@@ -1212,7 +1241,7 @@ margin-top:660px;
 right:30px;
 
 }
-#course-textbox, #course-types, .cours {
+#course-textbox, #course-types, .cours, #about {
   padding: 90px 20px;
 }
 ul {
@@ -1243,6 +1272,24 @@ h5{
 }
 input[type=text], select, textarea, input[type=submit], input[type=reset], li>a{
   font-size: 12px;
+}
+img.carousel{
+  width:75%;
+}
+#courses{
+  padding:120px 0;
+}
+h1{
+  font-size: 1.8rem;
+}
+#courses-menu{
+  margin-top:0;
+  margin-left:-10px;
+}
+#courses-menu-ul{
+  display:flex;
+  flex-wrap: wrap;
+  padding:0;
 }
 }
 @media only screen and (max-width: 390px){
