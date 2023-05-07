@@ -718,6 +718,12 @@ li>a:hover{
   text-decoration:none;
   color:#DB6F6B;
 }
+.flexbox{
+  display: flex;
+  width:75%;
+  justify-content: space-evenly;
+  margin:auto;
+}
 /*Cookie alert*/
 .cookiealert{
   background:#1F2429 !important;
@@ -747,7 +753,7 @@ img.cookie-alert-cookie{
 }
 p.copyright{
   text-align:center;
-  margin-top:60px;
+  margin-top:30px;
  
 }
 img.cookie-alert-cat{
@@ -1245,8 +1251,15 @@ z-index: 30;
    padding: 0px;
   text-align: center;
 }
+.flexbox{
+  flex-wrap: wrap;
+ align-content: normal;
+}
+ .copyright{
+  margin-top:10px;
+  
 
- 
+ }
 }
 @media only screen and (max-width: 590px){
   .main.textbox{
